@@ -1,43 +1,62 @@
-h1 {
-    font-size: 36px;
-    color:gray;
+body{
+    background-color:white;
+    color: black;
+    margin:0px;
+    font-family: Raleway;
   }
-  h1,
-  figcaption{font family: „Lucida Grande”,”Lucida Sans Unicode”,”Lucida Sans”,Geneva,Arial,sans-serif;
-    text-align: center;
-  }figcaption {
-    font-size: 11px;
-  }
-    img {
-      height:auto;
-      width:100%;
-    }
-  article {
-    max-width:700px;
-  }
-  article {
-    padding:10px;
-    max-width:700px;
-  }
-  article{
-    margin-left:auto;
-    margin-right:auto;
-    max-width:700px;
-      padding:10px;
-  }
-  p{ color: rgba(0,0,0,.8);
-    font-family: Georgia,Cambria,”Times New Roman”,Times,serif;
-    font-size: 21px;
-    letter-spacing: -.003em;
-    line-height: 1.58;
-  
+  img{
+    width:100%;
     
   }
-  a{
+  h1{
+    background:gray;
+    text-align:centre;
+    color: #fff;
+    position: relative; 
+    top: -100px; 
+  }
+  h2{
     color:gray;
   }
-  a:
-  hover
-  {
-   red;
+  .lead {
+    background-color:yellowgreen;
+    color:#444;
+    margin:10px;
+    font weight:700;
+    font-size: 1.3em; 
+  line-height: 1.5em;
+    padding:10px;
+    margin-top:_30px
+      
+  }
+  
+  table{
+     width: 92%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  table, tr, th, caption {
+     border: 1px solid #666; 
+    border-collapse: collapse;}
+  caption{
+     text-align: center;
+    text-transform: uppercase;
+    font weight:700;
+  }
+  th {
+    background-color:
+  white;
+    font-color:#666;
+    
+  } 
+  footer {
+    text-alignment:centre;
+     font-size: 12px;
+  }
+  a {
+    color:light blue;
+  }
+  a:hover{
+    color:green
+    
   }
